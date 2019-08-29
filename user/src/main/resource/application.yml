@@ -1,5 +1,5 @@
 server:
-    port: 9999
+    port: 8991
     servlet:
         context-path: /demo
 spring:
@@ -43,12 +43,3 @@ spring:
         registry: zookeeper://localhost:2181
         provider:
             port: 20999
-dubbo:
-    application:
-        id: dubbo-account-example
-        name: dubbo-account-example
-        qosEnable: false
-    protocol:
-        id: dubbo
-        name: dubbo
-        port: 20880

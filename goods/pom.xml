@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.luck</groupId>
@@ -50,6 +50,11 @@
 			<groupId>net.logstash.logback</groupId>
 			<artifactId>logstash-logback-encoder</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.luck</groupId>
+			<artifactId>common</artifactId>
+		</dependency>
 
 		<!-- junit test & springboot-test -->
 		<dependency>
@@ -90,10 +95,10 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+		</dependency>
 
 		<!-- druid数据库连接池 -->
 		<dependency>
@@ -106,19 +111,19 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.14</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+		</dependency>
 
 
-        <!-- seata -->
+		<!-- seata -->
 		<dependency>
 			<groupId>io.seata</groupId>
 			<artifactId>seata-all</artifactId>
